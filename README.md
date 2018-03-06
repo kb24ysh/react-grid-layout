@@ -81,25 +81,18 @@ _Know of others? Create a PR to let me know!_
 * Grid Items placed using CSS Transforms
 * Performance: [on](http://i.imgur.com/FTogpLp.jpg) / [off](http://i.imgur.com/gOveMm8.jpg), note paint (green) as % of time
 
-| Version      | Compatibility    |
-| ------------ | ---------------- |
-| >= 0.11.3    | React 0.14 & v15 |
-| >= 0.10.0    | React 0.14       |
-| 0.8. - 0.9.2 | React 0.13       |
-| < 0.8        | React 0.12       |
-
 ## Installation
 
 Install the React-Grid-Layout [package](https://www.npmjs.org/package/react-grid-layout) package using [npm](https://www.npmjs.com/):
 
 ```bash
-npm install react-grid-layout
+npm install otk-react-grid-layout
 ```
 
 Include the following stylesheets in your application:
 
 ```
-/node_modules/react-grid-layout/css/styles.css
+/node_modules/otk-react-grid-layout/css/styles.css
 /node_modules/react-resizable/css/styles.css
 ```
 
