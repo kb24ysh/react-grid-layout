@@ -10,8 +10,7 @@ class BasicLayout extends React.PureComponent {
     items: 20,
     rowHeight: 30,
     onLayoutChange: function() {},
-    cols: 12,
-    verticalCompact: false
+    cols: 12
   };
 
   constructor(props) {
