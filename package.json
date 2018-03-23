@@ -1,6 +1,6 @@
 {
-	"name": "otk-react-grid-layout",
-	"version": "0.3.3",
+	"name": "otk-react-grid-layout-test",
+	"version": "0.3.4",
 	"description": "A draggable and resizable grid layout with responsive breakpoints, for React. Improved version",
 	"main": "index.js",
 	"scripts": {
