@@ -1,6 +1,6 @@
 {
-	"name": "otk-react-grid-layout-test",
-	"version": "0.3.4",
+	"name": "otk-react-grid-layout",
+	"version": "0.4.0",
 	"description": "A draggable and resizable grid layout with responsive breakpoints, for React. Improved version",
 	"main": "index.js",
 	"scripts": {
@@ -19,16 +19,7 @@
 		"type": "git",
 		"url": "git@github.com:oTkPoBeHuE/react-grid-layout.git"
 	},
-	"keywords": [
-		"react",
-		"grid",
-		"drag",
-		"draggable",
-		"resize",
-		"resizable",
-		"fluid",
-		"responsive"
-	],
+	"keywords": ["react", "grid", "drag", "draggable", "resize", "resizable", "fluid", "responsive"],
 	"author": "Ivan Pakhtin <xxoTkPoBeHuExx@gmail.com>",
 	"license": "MIT",
 	"bugs": {
@@ -86,18 +77,10 @@
 		"registry": "https://registry.npmjs.org"
 	},
 	"jest": {
-		"testMatch": [
-			"<rootDir>/test/spec/*.js"
-		]
+		"testMatch": ["<rootDir>/test/spec/*.js"]
 	},
 	"lint-staged": {
-		"*.{js,jsx}": [
-			"prettier --write",
-			"git add"
-		],
-		"*.css": [
-			"prettier --write",
-			"git add"
-		]
+		"*.{js,jsx}": ["prettier --write", "git add"],
+		"*.css": ["prettier --write", "git add"]
 	}
 }
