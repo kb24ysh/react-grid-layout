@@ -499,7 +499,7 @@ export default class GridItem extends React.Component<Props, State> {
       w = Math.max(Math.min(w, maxW), minW);
       h = Math.max(Math.min(h, maxH), minH);
 
-      if (isBounded && h + y >= maxRows) {
+      if (isBounded && h + y > maxRows) {
         h = Math.max(h - y, 1);
       }
 
